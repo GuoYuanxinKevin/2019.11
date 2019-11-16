@@ -20,7 +20,7 @@ for i in range(101):
         V_temp[(i,j)] = 0
 
 
-for iteration in range(40):
+for iteration in range(20000):
     for i in range(0,101):
         for j in range(0,101):
             if i == 0 and j == 0:
@@ -78,8 +78,6 @@ for iteration in range(40):
         for j in range(0,101):
             V[(i,j)] = V_temp[(i,j)] - a
 
-
-print(V[(80,80)])
 print(action)
                     
 
