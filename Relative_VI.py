@@ -5,9 +5,9 @@ rho = 0.95
 lambda_1 = 1.3*rho
 lambda_2 = 0.4*rho
 m_1 = 1
-m_2 = 2
+m_2 = 1/2
 m_3 = 1
-nu = lambda_1 + lambda_2 + 1/m_1 + 1/m_2 + 1/m_3
+nu = lambda_1 + lambda_2 + m_1 + m_2 + m_3
 
 V = dict()
 action = dict()
